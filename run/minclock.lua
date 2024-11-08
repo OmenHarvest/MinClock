@@ -1,4 +1,4 @@
-f CLIENT then
+if CLIENT then
 surface.CreateFont('clock', {
 	font = 'Open Sans Bold',
 	size = 30,
@@ -34,4 +34,4 @@ function minclock()
 	end
 end
 
-hook.Add("HUDPaint", "minclock", minclock)‰
+hook.Add("HUDPaint", "minclock", minclock)â€°
